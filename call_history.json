@@ -1,0 +1,65 @@
+[
+    {
+        "caller_name": "",
+        "timestamp": "2025-11-28 22:07:14",
+        "transcript": "Transcription failed: \n\nYou tried to access openai.Audio, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+        "intent": "other",
+        "urgency": "low",
+        "summary": "Transcription failed: \n\nYou tried to access openai",
+        "recommended_action": "follow_up"
+    },
+    {
+        "caller_name": "",
+        "timestamp": "2025-11-28 23:07:37",
+        "transcript": "Transcription failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+        "intent": "other",
+        "urgency": "low",
+        "summary": "Transcription failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://p...",
+        "recommended_action": "follow_up"
+    },
+    {
+        "caller_name": "",
+        "timestamp": "2025-11-29 17:56:02",
+        "transcript": "Local transcription failed: whisper package not installed. pip install openai-whisper",
+        "intent": "other",
+        "urgency": "low",
+        "summary": "Local transcription failed: whisper package not installed. pip install openai-whisper",
+        "recommended_action": "follow_up"
+    },
+    {
+        "caller_name": "",
+        "timestamp": "2025-11-29 18:18:38",
+        "transcript": "Local transcription failed: whisper package not installed. pip install openai-whisper",
+        "intent": "other",
+        "urgency": "low",
+        "summary": "Local transcription failed: whisper package not installed. pip install openai-whisper",
+        "recommended_action": "follow_up"
+    },
+    {
+        "caller_name": "",
+        "timestamp": "2025-11-29 19:48:17",
+        "transcript": " Hello, I want to check my appointment.",
+        "intent": "appointment",
+        "urgency": "low",
+        "summary": "Hello, I want to check my appointment.",
+        "recommended_action": "follow_up"
+    },
+    {
+        "caller_name": "Aishu",
+        "timestamp": "2025-11-29 19:52:59",
+        "transcript": " Hello, I want to check my appointment.",
+        "intent": "appointment",
+        "urgency": "low",
+        "summary": "Hello, I want to check my appointment.",
+        "recommended_action": "follow_up"
+    },
+    {
+        "caller_name": "Shree",
+        "timestamp": "2025-11-29 19:57:37",
+        "transcript": " Hello, I want to check my appointment.",
+        "intent": "appointment",
+        "urgency": "low",
+        "summary": "Hello, I want to check my appointment.",
+        "recommended_action": "follow_up"
+    }
+]
